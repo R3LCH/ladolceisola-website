@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Italienische Bar, Café und Eisdiele im Herzen der Altstadt von Scalea",
+    "cta": "Menü Ansehen"
+  },
+  "about": {
+    "title": "Willkommen",
+    "description": "Italienische Bar, Café und Eisdiele im Herzen der Altstadt von Scalea. Geöffnet vom frühen Morgen bis spät in die Nacht."
+  },
+  "location": {
+    "title": "Standort",
+    "address": "Adresse",
+    "directions": "Route Berechnen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "followUs": "Folgen Sie Uns",
+    "openDaily": "Täglich Geöffnet"
+  },
+  "hours": {
+    "title": "Öffnungszeiten",
+    "daily": "Täglich",
+    "morning": "Morgens",
+    "night": "Abends",
+    "days": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "La Dolce Isola — Italian Bar, Café & Gelato in Scalea",
+    "description": "Italian bar, café and gelato shop in the heart of Scalea's historic center. Open from early morning until late night."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Italian Bar · Café · Gelato · Wine Bar",
+    "tagline": "In the heart of Scalea's historic center",
+    "cta": "View Menu",
+    "hours": "Open 7am - 3am"
+  },
+  "about": {
+    "title": "Welcome to La Dolce Isola",
+    "subtitle": "An oasis of taste in the historic center",
+    "description": "La Dolce Isola is much more than just a bar. It's where your day begins with a perfect coffee, where lunch becomes a culinary experience, and where evenings transform into magical moments with our artisan cocktails. Located in the heart of Scalea's historic center, we offer a warm and authentic atmosphere where tradition meets innovation.",
+    "features": {
+      "coffee": "Artisan Coffee",
+      "gelato": "Homemade Gelato",
+      "cocktails": "Premium Cocktails",
+      "food": "Italian Cuisine",
+      "wine": "Wine Selection",
+      "atmosphere": "Unique Atmosphere"
+    }
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "From breakfast to evening cocktails",
+    "viewFull": "View Full Menu",
+    "categories": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "drinks": "Drinks",
+      "cocktails": "Cocktails",
+      "wine": "Wine",
+      "gelato": "Gelato",
+      "desserts": "Desserts"
+    }
+  },
+  "gallery": {
+    "title": "Atmosphere & Flavors",
+    "subtitle": "A visual journey through La Dolce Isola"
+  },
+  "reviews": {
+    "title": "Guest Experiences",
+    "subtitle": "What our guests say",
+    "rating": "{{value}} out of 5",
+    "basedOn": "Based on {{count}} Google reviews",
+    "readMore": "Read more reviews"
+  },
+  "contact": {
+    "title": "Visit Us",
+    "subtitle": "We're open every day",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Hours",
+    "hoursDetail": "Every day: 7am - 3am",
+    "getDirections": "Get Directions",
+    "callNow": "Call Now",
+    "findUs": "Find Us"
+  },
+  "footer": {
+    "tagline": "Your taste oasis in Scalea",
+    "followUs": "Follow Us",
+    "openingHours": "Opening Hours",
+    "allDays": "Every day",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "© {{year}} La Dolce Isola. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "learnMore": "Learn More",
+    "bookTable": "Book a Table"
+  }
+}

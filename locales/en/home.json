@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Italian Bar, Café and Gelato Shop in the Heart of Scalea's Historic Center",
+    "cta": "View Menu"
+  },
+  "about": {
+    "title": "Welcome",
+    "description": "Italian bar, café and gelato shop in the heart of Scalea's historic center. Open from early morning until late night."
+  },
+  "location": {
+    "title": "Location",
+    "address": "Address",
+    "directions": "Get Directions"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone",
+    "followUs": "Follow Us",
+    "openDaily": "Open Daily"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "daily": "Every day",
+    "morning": "Morning",
+    "night": "Night",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    }
+  }
+}
