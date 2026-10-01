@@ -64,7 +64,7 @@ export function fadeInOnScroll(
     delay,
     ease: EASE,
     scrollTrigger: {
-      trigger: target,
+      trigger: target as gsap.DOMTarget,
       start,
       end,
       scrub,
@@ -95,7 +95,7 @@ export function slideIn(
     delay,
     ease: EASE,
     scrollTrigger: {
-      trigger: target,
+      trigger: target as gsap.DOMTarget,
       start,
       end,
       scrub,
@@ -127,7 +127,8 @@ export function staggerGrid(
     return gsap.to(container, { duration: 0 })
   }
 
-  const children = gsap.utils.toArray((container as Element).children)
+  const element = container as Element
+  const children = gsap.utils.toArray(element.children)
 
   return gsap.from(children, {
     opacity: 0,
@@ -166,7 +167,7 @@ export function parallax(
     y: () => window.innerHeight * speed,
     ease: 'none',
     scrollTrigger: {
-      trigger: target,
+      trigger: target as gsap.DOMTarget,
       start,
       end,
       scrub: true,
@@ -193,7 +194,7 @@ export function scaleOnScroll(
     duration: DURATION,
     ease: EASE,
     scrollTrigger: {
-      trigger: target,
+      trigger: target as gsap.DOMTarget,
       start,
       once,
     },

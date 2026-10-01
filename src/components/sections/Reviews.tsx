@@ -19,9 +19,9 @@ const STAR_PATH =
 const AUTO_PLAY_INTERVAL = 5000
 const TRANSITION_DURATION = 0.6
 
-function StarRow({ className }: { className: string }) {
+function StarRow({ className, style }: { className: string; style?: React.CSSProperties }) {
   return (
-    <span className={`flex gap-0.5 ${className}`} aria-hidden="true">
+    <span className={`flex gap-0.5 ${className}`} style={style} aria-hidden="true">
       {Array.from({ length: 5 }, (_, i) => (
         <svg key={i} viewBox="0 0 20 20" className="size-4" fill="currentColor">
           <path d={STAR_PATH} />
@@ -92,7 +92,7 @@ export function Reviews() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isHovered, setIsHovered] = useState(false)
-  const autoPlayTimerRef = useRef<number>()
+  const autoPlayTimerRef = useRef<number | undefined>(undefined)
 
   const reviews = reviewsData as Review[]
   const totalReviews = reviews.length
@@ -224,7 +224,7 @@ export function Reviews() {
               <button
                 key={i}
                 onClick={() => setCurrentIndex(i)}
-                aria-label={t('reviews.goToSlide', { number: i + 1 }, `Vai alla slide ${i + 1}`)}
+                aria-label={t('reviews.goToSlide', { number: i + 1 })}
                 className={`h-2 rounded-full transition-all duration-300 ${
                   i === currentIndex
                     ? 'w-8 bg-ocean'

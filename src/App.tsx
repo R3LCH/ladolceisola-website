@@ -7,6 +7,7 @@ import About from './components/sections/About'
 import Menu from './components/sections/Menu'
 import Gallery from './components/sections/Gallery'
 import Location from './components/sections/Location'
+import Hours from './components/sections/Hours'
 import Contact from './components/sections/Contact'
 
 const App: React.FC = () => {

@@ -10,11 +10,13 @@ interface MenuSectionProps {
 export function MenuSection({ className = '' }: MenuSectionProps) {
   const [currentPage, setCurrentPage] = useState(1)
   const [sidebarVisible, setSidebarVisible] = useState(false)
-  const [inactivityTimer, setInactivityTimer] = useState<number | null>(null)
+  const [inactivityTimer, setInactivityTimer] = useState<number | undefined>(undefined)
 
   // Auto-hide sidebar after 3 seconds of inactivity
   const resetInactivityTimer = useCallback(() => {
-    clearTimeout(inactivityTimer)
+    if (inactivityTimer !== undefined) {
+      clearTimeout(inactivityTimer)
+    }
     
     setSidebarVisible(true)
     
@@ -40,7 +42,9 @@ export function MenuSection({ className = '' }: MenuSectionProps) {
     return () => {
       window.removeEventListener('mousemove', handleInteraction)
       window.removeEventListener('touchstart', handleInteraction)
-      clearTimeout(inactivityTimer)
+      if (inactivityTimer !== undefined) {
+        clearTimeout(inactivityTimer)
+      }
     }
   }, [resetInactivityTimer, inactivityTimer])
 
