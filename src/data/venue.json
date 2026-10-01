@@ -1,0 +1,56 @@
+{
+  "name": "La Dolce Isola",
+  "category": "Italian Bar · Caffè · Gelateria · Wine Bar",
+  "description": {
+    "it": "Bar, caffè e gelateria nel cuore del centro storico di Scalea. Aperto dal mattino presto fino a tarda notte.",
+    "en": "Italian bar, café and gelato shop in the heart of Scalea's historic center. Open from early morning until late night.",
+    "ru": "Итальянский бар, кафе и джелатерия в самом сердце исторического центра Скалеи. Открыто с раннего утра до поздней ночи.",
+    "uk": "Італійський бар, кафе та джелатерія в самому серці історичного центру Скалеї. Відкрито з ранку до пізньої ночі.",
+    "pl": "Włoski bar, kawiarnia i lodziarnia w sercu zabytkowego centrum Scalea. Otwarte od wczesnego rana do późnej nocy.",
+    "de": "Italienische Bar, Café und Eisdiele im Herzen der Altstadt von Scalea. Geöffnet vom frühen Morgen bis spät in die Nacht."
+  },
+  "address": {
+    "street": "Via Michele Bianchi 30",
+    "city": "Scalea",
+    "province": "CS",
+    "region": "Calabria",
+    "postalCode": "87029",
+    "country": "Italy"
+  },
+  "coordinates": {
+    "lat": 39.8147122,
+    "lng": 15.7909232
+  },
+  "contact": {
+    "phone": "+39 0985 920136",
+    "facebook": "https://www.facebook.com/ladolceisola.scalea",
+    "instagram": null,
+    "whatsapp": null,
+    "email": null
+  },
+  "hours": {
+    "monday": "07:00-03:00",
+    "tuesday": "07:00-03:00",
+    "wednesday": "07:00-03:00",
+    "thursday": "07:00-03:00",
+    "friday": "07:00-03:00",
+    "saturday": "07:00-03:00",
+    "sunday": "07:00-03:00"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 575,
+    "source": "Google"
+  },
+  "features": [
+    "outdoor_seating",
+    "pedestrian_zone",
+    "vegetarian_options",
+    "late_night",
+    "gelato",
+    "coffee",
+    "cocktails",
+    "wine_bar"
+  ],
+  "priceRange": "€€"
+}

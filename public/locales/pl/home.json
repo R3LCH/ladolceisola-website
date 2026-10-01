@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Włoski Bar, Kawiarnia i Lodziarnia w Sercu Zabytkowego Centrum Scalea",
+    "cta": "Zobacz Menu"
+  },
+  "about": {
+    "title": "Witamy",
+    "description": "Włoski bar, kawiarnia i lodziarnia w sercu zabytkowego centrum Scalea. Otwarte od wczesnego rana do późnej nocy."
+  },
+  "location": {
+    "title": "Lokalizacja",
+    "address": "Adres",
+    "directions": "Wyznacz Trasę"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "followUs": "Śledź Nas",
+    "openDaily": "Otwarte Codziennie"
+  },
+  "hours": {
+    "title": "Godziny Otwarcia",
+    "daily": "Codziennie",
+    "morning": "Rano",
+    "night": "Noc",
+    "days": {
+      "monday": "Poniedziałek",
+      "tuesday": "Wtorek",
+      "wednesday": "Środa",
+      "thursday": "Czwartek",
+      "friday": "Piątek",
+      "saturday": "Sobota",
+      "sunday": "Niedziela"
+    }
+  }
+}

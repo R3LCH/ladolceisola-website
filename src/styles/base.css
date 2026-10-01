@@ -1,0 +1,170 @@
+:root {
+  /* Sand/Warm backgrounds - Mediterranean sun-soaked aesthetic */
+  --rgb-sand: 232 230 224;
+  --rgb-sand-light: 244 242 237;
+  --rgb-sand-dark: 217 215 209;
+
+  /* Sunset/Gold accents - warm golden hour */
+  --rgb-sunset: 215 165 66;
+  --rgb-sunset-light: 229 184 96;
+  --rgb-sunset-dark: 200 147 56;
+
+  /* Coral accent - secondary warm tone */
+  --rgb-coral: 232 149 109;
+
+  /* Driftwood neutrals - warm browns for text */
+  --rgb-driftwood: 74 63 53;
+  --rgb-driftwood-light: 107 94 82;
+  --rgb-shadow: 42 37 32;
+
+  /* Tropical accents - optional decorative */
+  --rgb-ocean: 74 156 170;
+  --rgb-palm: 123 168 130;
+  --rgb-twilight: 107 91 149;
+
+  /* Text colors */
+  --rgb-text-dark: 42 37 32;
+  --rgb-text-muted: 107 94 82;
+  --rgb-text-light: 255 255 255;
+
+  /* Shadows - warm, soft */
+  --shadow-xs: 0 1px 2px rgba(74, 63, 53, 0.04);
+  --shadow-sm: 0 2px 4px rgba(74, 63, 53, 0.06);
+  --shadow-md: 0 4px 8px rgba(74, 63, 53, 0.08);
+  --shadow-lg: 0 8px 16px rgba(74, 63, 53, 0.1);
+  --shadow-xl: 0 12px 24px rgba(74, 63, 53, 0.12);
+  --shadow-2xl: 0 24px 48px rgba(74, 63, 53, 0.15);
+  --shadow-soft: var(--shadow-md);
+  --shadow-lifted: var(--shadow-xl);
+
+  /* Glow effects */
+  --glow-sunset: 0 4px 12px rgba(215, 165, 66, 0.25);
+  --glow-coral: 0 4px 12px rgba(232, 149, 109, 0.25);
+
+  /* Animation easing */
+  --ease-smooth: cubic-bezier(0.4, 0.0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-wave: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-float: cubic-bezier(0.4, 0.0, 0.6, 1);
+
+  /* Duration */
+  --duration-fast: 200ms;
+  --duration-base: 300ms;
+  --duration-slow: 500ms;
+  --duration-slower: 800ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  color: rgb(var(--rgb-driftwood));
+  background: rgb(var(--rgb-sand-light));
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.2;
+  color: rgb(var(--rgb-shadow));
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--rgb-sand));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--rgb-sunset) / 0.5);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--rgb-sunset));
+}

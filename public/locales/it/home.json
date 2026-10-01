@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Bar, Caffè e Gelateria nel cuore del centro storico di Scalea",
+    "cta": "Sfoglia il Menù"
+  },
+  "about": {
+    "title": "Benvenuti",
+    "description": "Bar, caffè e gelateria nel cuore del centro storico di Scalea. Aperto dal mattino presto fino a tarda notte."
+  },
+  "location": {
+    "title": "Dove Siamo",
+    "address": "Indirizzo",
+    "directions": "Ottieni Indicazioni"
+  },
+  "contact": {
+    "title": "Contatti",
+    "phone": "Telefono",
+    "followUs": "Seguici",
+    "openDaily": "Aperto Tutti i Giorni"
+  },
+  "hours": {
+    "title": "Orari di Apertura",
+    "daily": "Tutti i giorni",
+    "morning": "Mattina",
+    "night": "Notte",
+    "days": {
+      "monday": "Lunedì",
+      "tuesday": "Martedì",
+      "wednesday": "Mercoledì",
+      "thursday": "Giovedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica"
+    }
+  }
+}

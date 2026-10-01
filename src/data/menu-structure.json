@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "totalPages": 21,
+    "venue": "La Dolce Isola",
+    "menuType": "full",
+    "hasPhotos": true,
+    "language": "it"
+  },
+  "categories": [
+    {
+      "id": "cover",
+      "name": "Cover",
+      "nameTranslations": {
+        "it": "Copertina",
+        "en": "Cover",
+        "ru": "Обложка",
+        "uk": "Обкладинка",
+        "pl": "Okładka",
+        "de": "Titelseite"
+      },
+      "pages": [1],
+      "hasPhotos": true,
+      "items": [],
+      "notes": "Logo and brand cover page"
+    },
+    {
+      "id": "cocktails",
+      "name": "Cocktails",
+      "nameTranslations": {
+        "it": "Cocktails",
+        "en": "Cocktails",
+        "ru": "Коктейли",
+        "uk": "Коктейлі",
+        "pl": "Koktajle",
+        "de": "Cocktails"
+      },
+      "pages": [2, 3],
+      "hasPhotos": true,
+      "items": [
+        {
+          "name": "Mojito",
+          "price": "7.00",
+          "variations": ["Classico", "Fragola", "Passion Fruit", "Mirtillo", "Cocco", "Mango", "Pesca"]
+        },
+        {
+          "name": "Caipirina",
+          "price": "7.00",
+          "variations": ["Classico", "Fragola", "Passion Fruit", "Mirtillo", "Cocco", "Mango", "Pesca"]
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": "6.00"
+        },
+        {
+          "name": "Hugo",
+          "price": "6.00"
+        },
+        {
+          "name": "Gin Tonic",
+          "price": "7.00"
+        },
+        {
+          "name": "Negroni",
+          "price": "7.00"
+        },
+        {
+          "name": "Americano",
+          "price": "7.00"
+        },
+        {
+          "name": "Rum Cola",
+          "price": "7.00"
+        },
+        {
+          "name": "Vodka Lemon",
+          "price": "7.00"
+        },
+        {
+          "name": "Sex on the Beach",
+          "price": "7.00"
+        },
+        {
+          "name": "Pina Colada",
+          "price": "7.00"
+        },
+        {
+          "name": "Cosmopolitan",
+          "price": "7.00"
+        },
+        {
+          "name": "Margarita",
+          "price": "7.00"
+        },
+        {
+          "name": "Daiquiri",
+          "price": "7.00",
+          "variations": ["Classico", "Fragola", "Banana"]
+        },
+        {
+          "name": "Long Island",
+          "price": "8.00"
+        },
+        {
+          "name": "Mai Tai",
+          "price": "8.00"
+        },
+        {
+          "name": "Tequila Sunrise",
+          "price": "7.00"
+        },
+        {
+          "name": "Blue Lagoon",
+          "price": "7.00"
+        }
+      ],
+      "notes": "Extensive cocktail list with tropical variations, circular photo frames with drinks"
+    },
+    {
+      "id": "wine-prosecco",
+      "name": "Vino e Prosecco",
+      "nameTranslations": {
+        "it": "Vino e Prosecco",
+        "en": "Wine and Prosecco",
+        "ru": "Вино и Просекко",
+        "uk": "Вино та Просеко",
+        "pl": "Wino i Prosecco",
+        "de": "Wein und Prosecco"
+      },
+      "pages": [4, 5],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Vino Bianco",
+          "items": ["Chardonnay", "Pinot Grigio", "Vermentino", "Falanghina"]
+        },
+        {
+          "category": "Vino Rosso",
+          "items": ["Primitivo", "Nero d'Avola", "Montepulciano", "Sangiovese"]
+        },
+        {
+          "category": "Vino Rosato",
+          "items": ["Rosato di Calabria"]
+        },
+        {
+          "category": "Prosecco",
+          "items": ["Prosecco DOC", "Prosecco Rosè"]
+        },
+        {
+          "category": "Spumante",
+          "items": ["Ferrari Brut", "Franciacorta"]
+        }
+      ],
+      "notes": "Wine bottles displayed with photos, organized by type"
+    },
+    {
+      "id": "beer",
+      "name": "Birra",
+      "nameTranslations": {
+        "it": "Birra",
+        "en": "Beer",
+        "ru": "Пиво",
+        "uk": "Пиво",
+        "pl": "Piwo",
+        "de": "Bier"
+      },
+      "pages": [6],
+      "hasPhotos": true,
+      "items": [
+        {
+          "name": "Birra alla spina",
+          "sizes": ["Piccola 0.25L", "Media 0.40L", "Grande 0.50L"],
+          "types": ["Bionda", "Rossa", "Doppio Malto", "IPA"]
+        },
+        {
+          "name": "Birra in bottiglia",
+          "items": ["Peroni", "Nastro Azzurro", "Ichnusa", "Messina", "Corona", "Heineken", "Budweiser", "Ceres"]
+        }
+      ],
+      "notes": "Beer glasses and bottles with photos, draft and bottled options"
+    },
+    {
+      "id": "spirits",
+      "name": "Distillati",
+      "nameTranslations": {
+        "it": "Distillati",
+        "en": "Spirits",
+        "ru": "Крепкие напитки",
+        "uk": "Міцні напої",
+        "pl": "Alkohole wysokoprocentowe",
+        "de": "Spirituosen"
+      },
+      "pages": [7, 8],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Vodka",
+          "items": ["Smirnoff", "Absolut", "Grey Goose", "Belvedere"]
+        },
+        {
+          "category": "Rum",
+          "items": ["Havana Club", "Bacardi", "Captain Morgan", "Zacapa"]
+        },
+        {
+          "category": "Gin",
+          "items": ["Bombay Sapphire", "Hendrick's", "Tanqueray", "Gin Mare"]
+        },
+        {
+          "category": "Whisky",
+          "items": ["Jack Daniel's", "Johnnie Walker", "Chivas Regal", "Glenfiddich"]
+        },
+        {
+          "category": "Tequila",
+          "items": ["Jose Cuervo", "Patrón", "Don Julio"]
+        },
+        {
+          "category": "Liquori",
+          "items": ["Limoncello", "Amaro", "Sambuca", "Grappa"]
+        }
+      ],
+      "notes": "Premium spirits with bottle photos"
+    },
+    {
+      "id": "aperitifs-drinks",
+      "name": "Aperitivi e Bevande",
+      "nameTranslations": {
+        "it": "Aperitivi e Bevande",
+        "en": "Aperitifs and Drinks",
+        "ru": "Аперитивы и напитки",
+        "uk": "Аперитиви та напої",
+        "pl": "Aperitify i napoje",
+        "de": "Aperitifs und Getränke"
+      },
+      "pages": [9],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Aperitivi",
+          "items": [
+            {"name": "Aperol Spritz", "price": "6.00"},
+            {"name": "Campari Spritz", "price": "6.00"},
+            {"name": "Hugo", "price": "6.00"},
+            {"name": "Rossini", "price": "7.00"},
+            {"name": "Bellini", "price": "7.00"}
+          ]
+        },
+        {
+          "category": "Analcolici",
+          "items": ["Coca Cola", "Fanta", "Sprite", "Acqua Minerale", "The", "Succhi di Frutta"]
+        }
+      ],
+      "notes": "Aperitif drinks with glass photos"
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "nameTranslations": {
+        "it": "Pizza",
+        "en": "Pizza",
+        "ru": "Пицца",
+        "uk": "Піца",
+        "pl": "Pizza",
+        "de": "Pizza"
+      },
+      "pages": [10, 11],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Margherita", "price": "6.00", "description": "Pomodoro, mozzarella, basilico"},
+        {"name": "Marinara", "price": "5.00", "description": "Pomodoro, aglio, origano"},
+        {"name": "Napoli", "price": "7.00", "description": "Pomodoro, mozzarella, acciughe"},
+        {"name": "Capricciosa", "price": "8.00", "description": "Pomodoro, mozzarella, prosciutto, funghi, carciofi"},
+        {"name": "Quattro Stagioni", "price": "8.00", "description": "Pomodoro, mozzarella, prosciutto, funghi, carciofi, olive"},
+        {"name": "Diavola", "price": "7.50", "description": "Pomodoro, mozzarella, salame piccante"},
+        {"name": "Prosciutto e Funghi", "price": "7.50", "description": "Pomodoro, mozzarella, prosciutto, funghi"},
+        {"name": "Quattro Formaggi", "price": "8.00", "description": "Mozzarella, gorgonzola, fontina, parmigiano"},
+        {"name": "Vegetariana", "price": "7.50", "description": "Pomodoro, mozzarella, verdure grigliate"},
+        {"name": "Tonno e Cipolla", "price": "7.50", "description": "Pomodoro, mozzarella, tonno, cipolla"},
+        {"name": "Bufalina", "price": "9.00", "description": "Pomodoro, mozzarella di bufala, basilico"},
+        {"name": "Salsiccia e Friarielli", "price": "8.50", "description": "Mozzarella, salsiccia, friarielli"}
+      ],
+      "notes": "Pizzas with large circular photo frames showing finished dishes"
+    },
+    {
+      "id": "primi-piatti",
+      "name": "Primi Piatti",
+      "nameTranslations": {
+        "it": "Primi Piatti",
+        "en": "First Courses / Pasta",
+        "ru": "Первые блюда",
+        "uk": "Перші страви",
+        "pl": "Pierwsze dania",
+        "de": "Erste Gänge"
+      },
+      "pages": [12],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Spaghetti alla Carbonara", "price": "9.00"},
+        {"name": "Spaghetti all'Amatriciana", "price": "9.00"},
+        {"name": "Penne all'Arrabbiata", "price": "8.00"},
+        {"name": "Paccheri allo Scoglio", "price": "12.00"},
+        {"name": "Linguine alle Vongole", "price": "11.00"},
+        {"name": "Risotto ai Frutti di Mare", "price": "12.00"},
+        {"name": "Lasagne al Forno", "price": "9.00"}
+      ],
+      "notes": "Pasta dishes with food photography"
+    },
+    {
+      "id": "secondi-piatti",
+      "name": "Secondi Piatti",
+      "nameTranslations": {
+        "it": "Secondi Piatti",
+        "en": "Main Courses",
+        "ru": "Вторые блюда",
+        "uk": "Другі страви",
+        "pl": "Drugie dania",
+        "de": "Hauptgerichte"
+      },
+      "pages": [13],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Grigliata Mista di Pesce", "price": "18.00"},
+        {"name": "Frittura di Calamari", "price": "12.00"},
+        {"name": "Tagliata di Manzo", "price": "15.00"},
+        {"name": "Bistecca alla Griglia", "price": "16.00"},
+        {"name": "Pollo alla Griglia", "price": "10.00"},
+        {"name": "Salmone alla Griglia", "price": "14.00"}
+      ],
+      "notes": "Main courses with photos, meat and fish options"
+    },
+    {
+      "id": "insalate-contorni",
+      "name": "Insalate e Contorni",
+      "nameTranslations": {
+        "it": "Insalate e Contorni",
+        "en": "Salads and Side Dishes",
+        "ru": "Салаты и гарниры",
+        "uk": "Салати та гарніри",
+        "pl": "Sałatki i dodatki",
+        "de": "Salate und Beilagen"
+      },
+      "pages": [14],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Insalata Mista", "price": "5.00"},
+        {"name": "Insalata Caprese", "price": "7.00"},
+        {"name": "Insalata di Mare", "price": "10.00"},
+        {"name": "Caesar Salad", "price": "8.00"},
+        {"name": "Patatine Fritte", "price": "4.00"},
+        {"name": "Verdure Grigliate", "price": "6.00"}
+      ],
+      "notes": "Salads and sides with fresh vegetable photos"
+    },
+    {
+      "id": "gelato",
+      "name": "Gelato",
+      "nameTranslations": {
+        "it": "Gelato",
+        "en": "Ice Cream",
+        "ru": "Мороженое",
+        "uk": "Морозиво",
+        "pl": "Lody",
+        "de": "Eis"
+      },
+      "pages": [15, 16, 17],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Gelato Revolution",
+          "items": [
+            {"name": "Coppa Meraviglia", "price": "7.00"},
+            {"name": "Coppa Strange Day", "price": "8.00"},
+            {"name": "Coppa Sayonara", "price": "7.00"},
+            {"name": "Coppa Coba Cabana", "price": "7.00"},
+            {"name": "Coppa Dolce Isola", "price": "9.00"},
+            {"name": "Coppa Spagnolita", "price": "7.00"},
+            {"name": "Cialda alla Frutta", "price": "7.00"},
+            {"name": "Cialda alla Crema", "price": "7.00"},
+            {"name": "Affogato", "price": "6.00"},
+            {"name": "Coppa Capriccio", "price": "7.00"}
+          ]
+        }
+      ],
+      "notes": "Extensive gelato section with beautiful circular photos of ice cream cups, premium presentation"
+    },
+    {
+      "id": "coffee-drinks",
+      "name": "Caffetteria",
+      "nameTranslations": {
+        "it": "Caffetteria",
+        "en": "Coffee Bar",
+        "ru": "Кофейня",
+        "uk": "Кав'ярня",
+        "pl": "Kawiarnia",
+        "de": "Café"
+      },
+      "pages": [18, 19],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Caffè",
+          "items": [
+            {"name": "Espresso", "price": "1.50"},
+            {"name": "Espresso con panna e cacao", "price": "2.50"},
+            {"name": "Decaffeinato", "price": "1.50"},
+            {"name": "Orzo Piccolo", "price": "2.00"},
+            {"name": "Orzo Grande", "price": "3.00"},
+            {"name": "Caffè Corretto", "price": "2.50"},
+            {"name": "Caffè Freddo", "price": "2.00"},
+            {"name": "Cappuccino", "price": "2.50"},
+            {"name": "Cappuccino di soia", "price": "3.00"},
+            {"name": "Latte Freddo", "price": "1.50"},
+            {"name": "Caffè Ginseng", "price": "2.00"},
+            {"name": "Cornetto", "price": "2.00"},
+            {"name": "The Caldo", "price": "3.00"},
+            {"name": "Cioccolata Calda", "price": "3.50"},
+            {"name": "Cioccolata Calda con panna", "price": "4.50"}
+          ]
+        },
+        {
+          "category": "Mousse di caffè",
+          "items": [
+            {"name": "Classica", "price": "2.50"},
+            {"name": "Nocciola", "price": "3.00"},
+            {"name": "Cioccolato Nero", "price": "3.00"},
+            {"name": "Cioccolato Bianco", "price": "3.00"},
+            {"name": "Con Panna", "price": "3.00"},
+            {"name": "Con Panna & Bayles", "price": "4.00"},
+            {"name": "Nocciolino", "price": "4.50"},
+            {"name": "Pistacchino", "price": "4.50"}
+          ]
+        },
+        {
+          "category": "Delizie con Caffè",
+          "price": "5.00",
+          "items": ["Fashion", "Bagdad", "Spiritoso"]
+        }
+      ],
+      "notes": "Extensive coffee menu with mousse section, photo of coffee drink"
+    },
+    {
+      "id": "desserts",
+      "name": "Dessert",
+      "nameTranslations": {
+        "it": "Dessert",
+        "en": "Desserts",
+        "ru": "Десерты",
+        "uk": "Десерти",
+        "pl": "Desery",
+        "de": "Desserts"
+      },
+      "pages": [19, 20],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Soufflè", "price": "6.00", "description": "al cioccolato bianco/nero, dal cuore caldo con gelato"},
+        {"name": "Waffel", "price": "6.00", "description": "con Nutella/cioccolato bianco, con gelato"},
+        {"name": "Brioches", "price": "5.00", "description": "con gelato"},
+        {"name": "Brioches con panna", "price": "5.50"},
+        {"name": "Frappè", "price": "5.00"},
+        {"name": "Frappè con panna", "price": "5.50"}
+      ],
+      "notes": "Desserts with large circular photos showing plated items"
+    },
+    {
+      "id": "crepes-pancakes",
+      "name": "Crêpes e Pancake",
+      "nameTranslations": {
+        "it": "Crêpes e Pancake",
+        "en": "Crêpes and Pancakes",
+        "ru": "Крепы и блины",
+        "uk": "Млинці та панкейки",
+        "pl": "Naleśniki i pancake",
+        "de": "Crêpes und Pfannkuchen"
+      },
+      "pages": [20],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Crêpes",
+          "price": "5.00",
+          "items": ["Nutella", "Cioccolato Bianco", "Marmellata", "Crêpes con Gelato", "Crêpes Nutella e banana", "Crêpes Bigusto"]
+        },
+        {
+          "category": "Pancake",
+          "price": "5.00",
+          "items": ["Nutella", "Cioccolato bianco", "Bigusto", "Pistacchio", "Sciroppo d'acero"]
+        },
+        {
+          "category": "Aggiungi piacere al tuo dolce",
+          "price": "0.50",
+          "items": ["Caramello", "Cioccolato fondente", "Fragola", "Pistacchio", "Frutti di bosco", "Cocco", "Nocciola", "Granelle di nocciola", "Granelle di pistacchio", "Smarties", "Riso soffiato", "Cereali", "Gocce di cioccolato", "Meringhe", "Cheerios", "Panna montata"]
+        }
+      ],
+      "notes": "Crêpes and pancakes with large circular photo of waffle dessert"
+    },
+    {
+      "id": "smoothies",
+      "name": "Smoothies",
+      "nameTranslations": {
+        "it": "Smoothies",
+        "en": "Smoothies",
+        "ru": "Смузи",
+        "uk": "Смузі",
+        "pl": "Smoothie",
+        "de": "Smoothies"
+      },
+      "pages": [19],
+      "hasPhotos": true,
+      "items": [
+        {"name": "Tropical Colada", "price": "5.00", "description": "Banana, cocco e ananas"},
+        {"name": "Melon Fresh", "price": "5.00", "description": "Fragola, melone e mango"}
+      ],
+      "notes": "Featured with Smoothie Factory branding and fresh fruit imagery"
+    },
+    {
+      "id": "beverages",
+      "name": "Bibite",
+      "nameTranslations": {
+        "it": "Bibite",
+        "en": "Soft Drinks",
+        "ru": "Напитки",
+        "uk": "Напої",
+        "pl": "Napoje",
+        "de": "Getränke"
+      },
+      "pages": [18, 19, 21],
+      "hasPhotos": true,
+      "items": [
+        {
+          "category": "Bibite",
+          "items": [
+            {"name": "Bianco", "price": "2.50"},
+            {"name": "Latte", "price": "3.00"},
+            {"name": "Fondente", "price": "3.00"},
+            {"name": "Cocco", "price": "3.00"},
+            {"name": "Caramello", "price": "3.00"}
+          ]
+        },
+        {
+          "category": "Succhi di frutta",
+          "price": "3.00",
+          "items": ["Pesca e Mango", "Ananas", "Pera", "Mela", "Arancia", "Banana", "Albicocca", "Melakiwi", "Pompelmo", "Ace", "Mirtillo", "Pesca", "Spremute Fresh Juice"]
+        },
+        {
+          "category": "Bibite Soft drinks",
+          "items": [
+            {"name": "Acqua Minerale 50 cl", "price": "1.00"},
+            {"name": "Acqua Minerale 150 cl", "price": "2.50"},
+            {"name": "Acqua Minerale 1L", "price": "3.00"},
+            {"name": "Coca Cola", "price": "3.00"},
+            {"name": "Coca Cola Zero", "price": "3.00"},
+            {"name": "Fanta", "price": "3.00"},
+            {"name": "Bergamotto", "price": "3.00"},
+            {"name": "Gassosa al caffè", "price": "3.00"},
+            {"name": "Chinotto", "price": "3.00"},
+            {"name": "Lemon soda", "price": "3.00"},
+            {"name": "Acqua tonica", "price": "3.00"},
+            {"name": "Cedrata", "price": "3.00"},
+            {"name": "Sciroppi", "price": "3.00", "description": "Menta, granatà, ametena, latte di mandorla"},
+            {"name": "The Pesca", "price": "3.00"},
+            {"name": "The Limone", "price": "3.00"}
+          ]
+        }
+      ],
+      "notes": "Extensive beverage menu with fresh juice photo"
+    }
+  ],
+  "pageMapping": {
+    "1": {"category": "cover", "type": "cover"},
+    "2": {"category": "cocktails", "type": "content"},
+    "3": {"category": "cocktails", "type": "content"},
+    "4": {"category": "wine-prosecco", "type": "content"},
+    "5": {"category": "wine-prosecco", "type": "content"},
+    "6": {"category": "beer", "type": "content"},
+    "7": {"category": "spirits", "type": "content"},
+    "8": {"category": "spirits", "type": "content"},
+    "9": {"category": "aperitifs-drinks", "type": "content"},
+    "10": {"category": "pizza", "type": "content"},
+    "11": {"category": "pizza", "type": "content"},
+    "12": {"category": "primi-piatti", "type": "content"},
+    "13": {"category": "secondi-piatti", "type": "content"},
+    "14": {"category": "insalate-contorni", "type": "content"},
+    "15": {"category": "gelato", "type": "content"},
+    "16": {"category": "gelato", "type": "content"},
+    "17": {"category": "gelato", "type": "content"},
+    "18": {"category": "coffee-drinks", "type": "content"},
+    "19": {"category": "coffee-drinks,smoothies,desserts,beverages", "type": "content"},
+    "20": {"category": "desserts,crepes-pancakes", "type": "content"},
+    "21": {"category": "beverages", "type": "content"}
+  },
+  "designNotes": {
+    "colorScheme": "Cream/beige background with gold/orange category headers",
+    "photoStyle": "Circular photo frames for food/drink items",
+    "layout": "Two-page spreads with items on both pages",
+    "categoryHeaders": "Rounded pill-shaped headers in gold/orange and purple tones",
+    "typography": "Clean sans-serif with good hierarchy",
+    "photoQuality": "Professional food photography throughout",
+    "brandElements": "Logo appears on cover, Smoothie Factory certification badges visible"
+  },
+  "photographyPages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+  "presentationOrder": [
+    "cover",
+    "cocktails",
+    "wine-prosecco",
+    "beer",
+    "spirits",
+    "aperitifs-drinks",
+    "pizza",
+    "primi-piatti",
+    "secondi-piatti",
+    "insalate-contorni",
+    "gelato",
+    "coffee-drinks",
+    "smoothies",
+    "desserts",
+    "crepes-pancakes",
+    "beverages"
+  ],
+  "notes": "This is a comprehensive beach bar/restaurant menu with emphasis on drinks (cocktails, coffee, gelato) and lighter food options (pizza, pasta, salads). Premium photography throughout with circular frames. Menu has tropical summer aesthetic with cream/beige backgrounds and gold accents. Pricing is in Euros. All pages contain photos - no text-only pages."
+}

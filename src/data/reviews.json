@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "author": "Marco Rossi",
+    "rating": 5,
+    "text": "Posto meraviglioso nel centro storico! Il gelato artigianale è eccezionale, soprattutto il gusto pistacchio. Personale gentilissimo e atmosfera accogliente. Perfetto per una pausa dolce.",
+    "date": "2024-08-15",
+    "lang": "it"
+  },
+  {
+    "id": 2,
+    "author": "Elena Bianchi",
+    "rating": 5,
+    "text": "La migliore gelateria di Scalea! Ingredienti di qualità e prezzi onesti. I cocktails la sera sono fantastici. Ci torniamo sempre quando siamo in vacanza.",
+    "date": "2024-07-22",
+    "lang": "it"
+  },
+  {
+    "id": 3,
+    "author": "Giuseppe Romano",
+    "rating": 4,
+    "text": "Ottimo bar nel cuore della città vecchia. Caffè buonissimo e cornetti freschi al mattino. Servizio rapido e cortese. Consigliato per la colazione.",
+    "date": "2024-08-01",
+    "lang": "it"
+  },
+  {
+    "id": 4,
+    "author": "Anna Ferrari",
+    "rating": 5,
+    "text": "Un angolo di paradiso! Vista bellissima, gelato cremoso e cocktails perfetti. Il personale è super disponibile. Ideale per rilassarsi dopo una giornata al mare.",
+    "date": "2024-07-18",
+    "lang": "it"
+  },
+  {
+    "id": 5,
+    "author": "Luca Marino",
+    "rating": 5,
+    "text": "Locale storico con grande tradizione. La pizza è ottima e i prezzi sono giusti. Ambiente familiare e accogliente. Da provare assolutamente!",
+    "date": "2024-08-10",
+    "lang": "it"
+  },
+  {
+    "id": 6,
+    "author": "Sofia Greco",
+    "rating": 4,
+    "text": "Bella scoperta nel centro storico! Ampia scelta di dolci e gelati. La terrazza è incantevole la sera. Ottimo rapporto qualità-prezzo.",
+    "date": "2024-07-28",
+    "lang": "it"
+  }
+]
